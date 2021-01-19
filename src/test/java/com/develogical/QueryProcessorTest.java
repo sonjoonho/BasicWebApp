@@ -29,5 +29,4 @@ public class QueryProcessorTest {
     public void isNotCaseSensitive() {
         assertThat(queryProcessor.process("shakespeare"), containsString("playwright"));
     }
-
 }
